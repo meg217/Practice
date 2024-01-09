@@ -1,0 +1,3 @@
+[submodule "proxyfolio"]
+	path = proxyfolio
+	url = https://github.com/krvaibhaw/proxyfolio
