@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Meagan Mueller - Portfolio</title>
+    <title>Your Name - Portfolio</title>
 </head>
 <body>
 
     <header>
         <div class="container">
-            <h1>Meagan Mueller</h1>
+            <h1>Your Name</h1>
             <p>Web Developer</p>
         </div>
     </header>
@@ -22,46 +22,66 @@
 
     <section id="skills" class="container">
         <h2>Skills</h2>
-        <ul>
-            <li><img src="html-icon.png" alt="HTML"> HTML</li>
-            <li><img src="css-icon.png" alt="CSS"> CSS</li>
-            <li><img src="js-icon.png" alt="JavaScript"> JavaScript</li>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="html-icon.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="css-icon.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="js-icon.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
             <!-- Add more skills as needed -->
-        </ul>
+        </div>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
         <!-- Add details and links to your projects -->
         <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Description of the project and your role in it.</p>
-            <a href="#">Live Demo</a>
-            <a href="#">View Github</a>
+            <img src="project1.jpg" alt="Project 1">
+            <div class="project-info">
+                <h3>Project Title 1</h3>
+                <p>Description of the project and your role in it.</p>
+                <a href="#">View Project</a>
+            </div>
         </div>
 
         <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Description of the project and your role in it.</p>
-            <a href="#">View Project</a>
+            <img src="project2.jpg" alt="Project 2">
+            <div class="project-info">
+                <h3>Project Title 2</h3>
+                <p>Description of the project and your role in it.</p>
+                <a href="#">View Project</a>
+            </div>
         </div>
     </section>
 
     <section id="experience" class="container">
         <h2>Experience</h2>
         <!-- Add details about your past work experience -->
-        <div class="job">
-            <h3>Job Title 1</h3>
-            <p>Company Name</p>
-            <p>Date Range</p>
-            <p>Responsibilities and achievements in the role.</p>
-        </div>
+        <div class="timeline">
+            <div class="event">
+                <div class="event-date">2023 - Present</div>
+                <div class="event-info">
+                    <h3>Job Title 1</h3>
+                    <p>Company Name</p>
+                    <p>Responsibilities and achievements in the role.</p>
+                </div>
+            </div>
 
-        <div class="job">
-            <h3>Job Title 2</h3>
-            <p>Company Name</p>
-            <p>Date Range</p>
-            <p>Responsibilities and achievements in the role.</p>
+            <div class="event">
+                <div class="event-date">2020 - 2023</div>
+                <div class="event-info">
+                    <h3>Job Title 2</h3>
+                    <p>Company Name</p>
+                    <p>Responsibilities and achievements in the role.</p>
+                </div>
+            </div>
         </div>
     </section>
 
